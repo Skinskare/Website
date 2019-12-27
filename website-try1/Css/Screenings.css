@@ -1,0 +1,115 @@
+body {
+font-family: "Abel";
+/*background: rgba(0,0,0,0.9);*/
+background-image: url("../Images/background.jpg");
+background-size: cover;
+background-position: center;
+/*background-blend-mode: multiply;*/
+color: rgba(255,255,255,0.7);
+}
+
+.logo {
+/*color: rgba(62,62,62,0.7);*/
+padding-top: 15px;
+padding-left: 10px;
+text-align: left;
+}
+
+a#logo {
+  color: yellow;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-style: oblique;
+  font-family: Impact, fantasy;
+  font-size: 5.5em;
+  text-align: center;
+  color: yellow;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-family: "Nova Flat";
+  letter-spacing: 3px;
+  /*color: yellow;*/
+  font-size: 2em;
+  text-shadow: 1px 1px 2px black;
+}
+
+h3 {
+  font-style: oblique;
+  font-family: Helvetica;
+}
+
+article {
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+  padding: 0px 10px;
+  margin: 5px;
+}
+
+a#li {
+  /* unvisited link */
+  color: rgb(252, 134, 225);
+  text-decoration: none;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+/* visited link */
+/*a:visited {
+  color: yellow;
+  text-decoration: none;
+}
+a#li:visited {
+  color: yellow;
+  text-decoration: none;
+}*/
+
+/* mouse over link */
+a#li:hover {
+ color: yellow;
+ text-decoration: underline;
+}
+
+a:hover {
+ color: yellow;
+ text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+}
+
+button {
+  background: rgba(0,0,0,0.7);
+  margin: 5px;
+  border: 0;
+  position: relative;
+  border-color: rgba(0,0,0,0.7);
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.2em;
+}

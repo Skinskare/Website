@@ -1,0 +1,82 @@
+body {
+  background: black;
+  color: white;
+}
+header {
+  min-height: 300px;
+}
+
+.logo {
+/*color: rgba(62,62,62,0.7);*/
+padding-top: 15px;
+padding-left: 10px;
+text-align: left;
+}
+
+a#logo {
+  color: rgb(252, 134, 225);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+h1 {
+  color: yellow;
+  font-size: 3em;
+  font-family: "Arial";
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Abel";
+}
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 1.5em;
+  position: center;
+}
+
+.contact {
+  text-align: center;
+}
+h2 {
+  font-family: "Nova Flat";
+  letter-spacing: 3px;
+  color: rgb(252, 134, 225);
+  font-size: 2em;
+  text-shadow: 1px 1px 2px black;
+}
+.input {
+    width: 35%;
+    background: rgba(255,255,255,0.2);
+    border-radius: 31px;
+    border: 0px;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-family: "Abel";
+    font-size: 18px;
+    color: black;
+    line-height: 2.3;
+}
+/*.wrap-input {
+  text-align: center;
+  position: relative;
+  display: block;
+}
+*/
+.send-button {
+  background-color: rgb(252, 134, 225);
+  border: 0px;
+  border-radius: 31px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+#send-button {
+  color: black;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: bold;
+
+}
